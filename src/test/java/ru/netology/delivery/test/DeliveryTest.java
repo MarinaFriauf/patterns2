@@ -37,7 +37,7 @@ public class DeliveryTest {
         $("[data-test-id='agreement']").click();
         $("button.button").click();
         $(".notification__content").shouldBe(Condition.visible, Duration.ofSeconds(15));
-        $(".notification__content").shouldBe(exactText("Встреча успешно забронирована на " + firstMeetingDate));
+        $(".notification__content").shouldBe(exactText("Встреча успешно запланирована на " + firstMeetingDate));
     }
 }
 
