@@ -33,6 +33,7 @@ public class DeliveryTest {
         $("[data-test-id='date'] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE);
         $("[data-test-id='date'] input").setValue(firstMeetingDate);
         $("[data-test-id='name'] input").setValue(validUser.getName());
+//        $("[data-test-id='phone'] input").setValue(validUser.getPhone());
         $("[data-test-id='phone'] input").setValue("+79231335015");
         $("[data-test-id='agreement']").click();
         $("button.button").click();
