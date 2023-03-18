@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.delivery.test.DeliveryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-18T13:18:51" hostname="LEGION" time="14.29">
+<testsuite name="ru.netology.delivery.test.DeliveryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-18T15:58:05" hostname="LEGION" time="3.247">
   <properties/>
-  <testcase name="Should successful date and change" classname="ru.netology.delivery.test.DeliveryTest" time="14.29"/>
+  <testcase name="Should successful date and change" classname="ru.netology.delivery.test.DeliveryTest" time="3.247"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 10942
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 3399
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-мар. 18, 2023 2:18:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+мар. 18, 2023 4:58:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
 ]]></system-err>
 </testsuite>
